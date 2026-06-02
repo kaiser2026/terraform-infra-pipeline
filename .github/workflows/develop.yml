@@ -16,7 +16,7 @@ jobs:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::863956449082:role/github-actions-kaiser2026-pipeline"
       aws-region: "us-east-1"
-      aws-statefile-s3-bucket: "kaiser2026-us-east1-terraform-statefile "
+      aws-statefile-s3-bucket: "kaiser2026-us-east1-terraform-statefile"
       aws-lock-dynamodb-table: "kaiser2026-us-east1-terraform-lock"
       
 
